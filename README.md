@@ -34,3 +34,11 @@ La aplicación sigue una estructura básica de Android y utiliza el patrón de d
 - Asegúrate de proporcionar la URL correcta de la estación de radio en el archivo `res/values/strings.xml`.
 - La aplicación está diseñada para funcionar con el flujo de música (`STREAM_MUSIC`) del `AudioManager`.
 - Se manejan excepciones como `IllegalArgumentException`, `IllegalStateException`, y `IOException` durante la configuración del reproductor.
+- Asegúrece de agregar los permisos necesarios en el archivo `AndroidManifest` de la aplicación.
+- Asegúrese de habilitar `View Binding` en el archivo `Graddle`. Vease en enlaces útiles si es necesario.
+
+## Enlaces Útiles
+- [Documentación oficial de Android Developer](https://developer.android.com/docs)
+- [Documentación de MediaPlayer](https://developer.android.com/reference/android/media/MediaPlayer)
+- [Documentación de AudioManager](https://developer.android.com/reference/android/media/AudioManager)
+- [Documentación de View Binding](https://developer.android.com/topic/libraries/view-binding?hl=es-419)
