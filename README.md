@@ -35,7 +35,7 @@ La aplicación sigue una estructura básica de Android y utiliza el patrón de d
 - La aplicación está diseñada para funcionar con el flujo de música (`STREAM_MUSIC`) del `AudioManager`.
 - Se manejan excepciones como `IllegalArgumentException`, `IllegalStateException`, y `IOException` durante la configuración del reproductor.
 - Asegúrece de agregar los permisos necesarios en el archivo `AndroidManifest` de la aplicación.
-- Asegúrese de habilitar `View Binding` en el archivo `Graddle`. Vease en enlaces útiles si es necesario.
+- Asegúrese de habilitar `View Binding` en el archivo `Graddle`. Véase en enlaces útiles si es necesario.
 
 ## Enlaces Útiles
 - [Documentación oficial de Android Developer](https://developer.android.com/docs)
